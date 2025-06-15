@@ -85,3 +85,33 @@ This cleans the raw transcript and makes it suitable for NLP tasks.
 
 
 ### The interactive pyLDAvis dashboard shows an intertopic distance map and the key words defining each topic. Well-separated bubbles indicate distinct topics, and the term bars help interpret the top keywords for each topic. The lambda slider fine-tunes how generic vs unique words are shown
+
+---
+
+## 📷 Demo Gallery
+
+Below are sample visual outputs from the Video Topic Extraction pipeline:
+
+| Key Phrases Bar Chart | pyLDAvis Dashboard |
+|-----------------------|---------------------|
+| ![Key Phrases](./keyphrases.png) | [🔗 View Interactive Dashboard](.video_topics.html) |
+
+---
+
+### 📑 Topic-wise Word Clouds
+
+Each word cloud shows the most representative words for each discovered topic.
+
+| Topic 0 | Topic 1 |
+|---------|----------|
+| ![Topic 0 Word Cloud](./wordcloud_topic_0.png) | ![Topic 1 Word Cloud](./wordcloud_topic_1.png) |
+
+| Topic 2 | Topic 3 |
+|---------|----------|
+| ![Topic 2 Word Cloud](./wordcloud_topic_2.png) | ![Topic 3 Word Cloud](./wordcloud_topic_3.png) |
+
+| Topic 4 |
+|---------|
+| ![Topic 4 Word Cloud](./wordcloud_topic_4.png) |
+
+---
